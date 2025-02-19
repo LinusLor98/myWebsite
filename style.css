@@ -385,6 +385,29 @@ hr {
     text-decoration: underline;
 }
 
+/* -----------------buchungssystem--------- */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #0069ff;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+
+
 /* -----------------css for small screens--------- */
 nav .fas{
     display: none;

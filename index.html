@@ -8,6 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
+    <!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friseur Terminbuchung</title>
+    <!-- Calendly Widget Stylesheet -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <!-- Dein eigenes CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Friseur Urbanerie</h1>
+        <p>Buchen Sie hier Ihren Termin!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Terminbuchung</h2>
+            <p>Klicken Sie auf den Button unten, um einen Termin zu buchen:</p>
+        </section>
+    </main>
+
+    <!-- Calendly badge widget begin -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            Calendly.initBadgeWidget({
+                url: 'https://calendly.com/linus-loretz/30min',
+                text: 'Termin buchen',
+                color: '#0069ff',
+                textColor: '#ffffff'
+            });
+        }
+    </script>
+    <!-- Calendly badge widget end -->
+</body>
+</html>
+
 <body>
 <div id="header">
     <div class="container">
